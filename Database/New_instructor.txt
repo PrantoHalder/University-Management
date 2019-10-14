@@ -1,0 +1,16 @@
+Name,Department,ID,DOB,JD,Gender,Email,Salary,Contact,passward
+pranto ,Computer Science & Engineering,1,2019-07-30,2019-08-19,Male,12@,1,1,1
+p,Computer Science & Engineering,2,2019-06-30,2019-08-06,Male,11,11,1,11
+r,Computer Science & Engineering,20,2019-07-02,2019-07-01,Male,p,777,010,
+Pranto Halder Shovon,Computer Science & Engineering,20072013010,2019-09-20,2019-08-27,Male,prantohalde117@gmail.com,100000,01317703529,1234
+Pranto Halder,Software Engineering,20112013010,2019-08-20,2019-08-14,Female,@gmail.co,50000,12,1235
+Puja Biswas,Civil Engineering,20122014201,2019-07-03,2019-07-01,Male,puja@gmail.com,15,01317703528,1234
+Bristy Biswas,Software Engineering,20142013010,2019-07-01,2019-07-09,Female,Bristy1@gmail.com,50,01317703528,1234
+Puja Halder,Computer Science & Engineering,20152013010,2019-07-02,2019-07-01,Female,puja@gmail.com,2000,01317703529,1234
+Puja Halder,Computer Science & Engineering,20172013010,2019-08-04,,Male,Pujahalder@gmail.,,013177056,1234
+Khan MIhaddurjaman ,Computer Science & Engineering,20172024010,2019-07-01,2019-07-01,Male,khanmihd@gmail.com,20000,01720312047,1234
+Rita Halder,Computer Science & Engineering,20172042010,2019-08-06,2019-08-07,Male,Rita174@gmail.com,50000,01317703528,1234
+Bristy Biswas,Computer Science & Engineering,20192014010,2019-07-02,2019-07-03,Male,Bristy@gmail.com,200,01317703528,1234
+shayan mridha,Unbanization And Rural Planning,202,2019-08-20,2019-08-08,Male,prantohalder117@gmail.com,50000,01819693229,1234
+Pranto,Internet Protocal,20202013010,2019-07-02,2019-07-08,Male,prantohalder117@gmail.com,20000,01317703529,1234
+x,Computer Science & Engineering,xx,2019-07-03,2019-07-30,Male,22,1,0,1234
