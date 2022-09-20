@@ -1,0 +1,15 @@
+﻿<Window x:Class="University_application.thanks_new_ins"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:University_application"
+        mc:Ignorable="d"
+        Title="Process Complete" Height="450" Width="1000" MinWidth="600" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Margin="-4,0,4,0">
+        <Label Content="              Process Complete" HorizontalAlignment="Left" Margin="188,96,0,0" VerticalAlignment="Top" Width="611" Height="70" FontSize="36" Background="#FF1BE6DD" FontWeight="Bold"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="434,216,0,0" VerticalAlignment="Top" Width="80" Height="28" Background="#FFDA1111" Click="Button_Click" FontSize="16" FontWeight="Bold"/>
+        <Label Content="All Rights Reserved To Stanford University, Khulna" HorizontalAlignment="Left" Margin="296,341,0,0" VerticalAlignment="Top" Width="405" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

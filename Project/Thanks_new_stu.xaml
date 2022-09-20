@@ -1,0 +1,14 @@
+﻿<Window x:Class="University_application.Thanks_new_stu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:University_application"
+        mc:Ignorable="d"
+        Title="Process Complete" Height="450" Width="1000" MinWidth="600" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid Margin="-4,0,4,0" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+        <Label x:Name="l1" Content="              Process Complete" HorizontalAlignment="Left" Margin="188,96,0,0" VerticalAlignment="Top" Width="611" Height="70" FontSize="36" Background="#FF1BE6DD" FontWeight="Bold"/>
+        <Button x:Name="b3" Content="Exit" HorizontalAlignment="Left" Margin="393,218,0,0" VerticalAlignment="Top" Width="160" Height="25" Background="#FFDE2411" Click="Button_Click_2" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

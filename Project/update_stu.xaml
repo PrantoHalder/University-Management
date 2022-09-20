@@ -1,0 +1,33 @@
+﻿<Window x:Class="University_application.update_stu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:University_application"
+        mc:Ignorable="d"
+        Title="Update Student Information Center" Height="477" Width="800" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Topmost="True" WindowStartupLocation="CenterOwner">
+    <Grid Margin="-6,0,6,0">
+        <Label Content="ID  : " HorizontalAlignment="Left" Margin="42,83,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="30" Margin="102,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF6AE8E8" FontWeight="Bold"/>
+        <Label Content="Name :" HorizontalAlignment="Left" Margin="42,160,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t4" HorizontalAlignment="Left" Height="30" Margin="148,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF86E4E4"/>
+        <Label Content="Date of Birth : " HorizontalAlignment="Left" Margin="23,269,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="30" Margin="108,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF76E4E4"/>
+        <Label x:Name="L1" Content="       Stanford University" HorizontalAlignment="Left" Margin="288,25,0,0" VerticalAlignment="Top" Height="40" Width="230" FontSize="16" FontWeight="Bold" FontStyle="Italic" Background="#191FD6F3"/>
+        <Label Content="Department : " HorizontalAlignment="Left" Margin="27,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.907" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t3" HorizontalAlignment="Left" Height="30" Margin="141,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF79E8E8" IsReadOnly="True" FontWeight="Bold"/>
+        <Button x:Name="b1" Content="Show" HorizontalAlignment="Left" Margin="217,125,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="Button_Click_1" Background="#FF27CF17" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="t6" HorizontalAlignment="Left" Height="30" Margin="550,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF56E6E6" IsReadOnly="True" FontWeight="Bold"/>
+        <Label Content="Gender : " HorizontalAlignment="Left" Margin="471,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.907" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Contact : " HorizontalAlignment="Left" Margin="471,215,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.907" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Passward : " HorizontalAlignment="Left" Margin="471,277,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.907" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="t11" HorizontalAlignment="Left" Height="30" Margin="579,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF77F0F0"/>
+        <TextBox x:Name="t10" HorizontalAlignment="Left" Height="30" Margin="550,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF52E4E4"/>
+        <Button x:Name="b2" Content="Update" HorizontalAlignment="Left" Margin="471,339,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" Background="#FF6ED328" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Email : " HorizontalAlignment="Left" Margin="473,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.907" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t12" HorizontalAlignment="Left" Height="30" Margin="550,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#FF73ECEC"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="614,340,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3" Background="#FFEC5428" FontSize="16" FontWeight="Bold"/>
+        <Label Content="          All right reserved  Stanford University ,Australia&#xA;" HorizontalAlignment="Left" Margin="180,383,0,0" VerticalAlignment="Top" Width="426" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="University_application.new_stu_search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:University_application"
+        mc:Ignorable="d"
+        Title="new_stu_search" Height="550" Width="900" Background="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionBrushKey}}" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid Margin="-4,-8,12,-3">
+        <Label Content="          All right reserved  Stanford University ,Australia&#xA;" HorizontalAlignment="Left" Margin="261,470,0,0" VerticalAlignment="Top" Width="387" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Label x:Name="L2" Content="       Stanford University" HorizontalAlignment="Left" Margin="319,23,0,0" VerticalAlignment="Top" Height="40" Width="211" FontSize="16" FontWeight="Bold" FontStyle="Italic" Background="#191FD6F3"/>
+        <Button Content="Show" HorizontalAlignment="Left" Margin="592,79,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Height="40" Background="#FF59E01A" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="640,401,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_2" Height="40" Background="#FFEE480A" FontSize="16" FontWeight="Bold"/>
+        <Label Content="ID : " HorizontalAlignment="Left" Margin="193,82,0,0" VerticalAlignment="Top" Height="32" Width="28" FontWeight="Bold"/>
+        <Label Content="Name : " HorizontalAlignment="Left" Margin="30,169,0,0" VerticalAlignment="Top" Height="32" Width="94" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Department : " HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Height="32" Width="110" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Date of Birth : " HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" Height="32" Width="120" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Gender : " HorizontalAlignment="Left" Margin="36,339,0,0" VerticalAlignment="Top" Height="32" Width="94" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Contact : " HorizontalAlignment="Left" Margin="452,165,0,0" VerticalAlignment="Top" Height="32" Width="94" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Email : " HorizontalAlignment="Left" Margin="454,217,0,0" VerticalAlignment="Top" Height="32" Width="94" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Passward : " HorizontalAlignment="Left" Margin="456,267,0,0" VerticalAlignment="Top" Height="32" Width="94" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="40" Margin="257,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF83E2EC" FontSize="16"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="40" Margin="125,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF6AE0EC" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t3" HorizontalAlignment="Left" Height="40" Margin="135,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF9DE1E8" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t4" HorizontalAlignment="Left" Height="40" Margin="141,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF98DAE0" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t6" HorizontalAlignment="Left" Height="40" Margin="127,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF9ED8DE" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t9" HorizontalAlignment="Left" Height="40" Margin="555,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF8DE6DE" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t8" HorizontalAlignment="Left" Height="40" Margin="555,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FF9AE6EE" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="t7" HorizontalAlignment="Left" Height="40" Margin="553,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="#FFA2E5EC" IsReadOnly="True" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="720,81,0,0" VerticalAlignment="Top" Width="74" Height="40" FontSize="16" FontWeight="Bold" Background="#FF0CF717" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>
